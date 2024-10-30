@@ -114,7 +114,7 @@ Icon.Parent = LoaderFrame;
 Icon.Size = UDim2.new(0,70,0,70);
 Icon.Position = UDim2.new(0.015,0,0.013,0);
 Icon.BackgroundTransparency = 1;
-Icon.Image = "http://www.roblox.com/asset/?id=11803247078";
+Icon.Image = getgenv().Icon;
 
 local Title = Instance.new("TextLabel");
 Title.Parent = LoaderFrame;
